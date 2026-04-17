@@ -1,7 +1,7 @@
 // Simple Gemini API test to diagnose chatbot issues
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-const GEMINI_API_KEY = 'AIzaSyAlhlPZPfwIV7Ts_EqE9w_m-XC61T6G0Qo';
+const GEMINI_API_KEY = '';
 
 export async function testGeminiAPI(): Promise<void> {
   console.log('🧪 Starting Gemini API diagnosis...');
